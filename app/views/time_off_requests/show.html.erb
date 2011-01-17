@@ -1,0 +1,13 @@
+<p>
+  <b>Content:</b>
+  <%=h @time_off_request.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%=h @time_off_request.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_time_off_request_path(@time_off_request) %> |
+<%= link_to 'Back', time_off_requests_path %>
